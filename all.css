@@ -1,0 +1,125 @@
+body {
+    background-color: white;
+    margin: 0px;
+  }
+  .toplinks {
+    text-decoration: none;
+    color: black;
+  }
+  .toplinks:hover {
+    text-decoration: underline;
+  }
+  .navlinks {
+    text-decoration: none;
+    color: #225db5;
+  }
+  .navlinks-hi {
+    text-decoration: none;
+    color: red;
+  }
+  .defaultlinks {
+    text-decoration: none;
+    color: #369;
+  }
+  .defaultlinks:hover {
+    text-decoration: underline;
+  }
+  .defaultlinks2 {
+    text-decoration: none;
+    color: #369;
+  }
+  .defaultlinks2:hover {
+    text-decoration: none;
+  }
+  a.defaultlinks2:visited {
+    color: blue;
+  }
+  .post_title {
+    text-decoration: none;
+    color: blue;
+  }
+  .post_title:visited {
+    color: blue;
+  }
+  .comments {
+    color: gray;
+  }
+  .sharebtn {
+    color: gray;
+  }
+  .headadmin {
+    background-color: #8c03fc;
+    color: white;
+  }
+  .admin {
+    background-color: red;
+    color: white;
+  }
+  .sitemod {
+    background-color: green;
+    color: white;
+  }
+  div.nav-selected {
+    float: left;
+    background-color: white;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4f96ff;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-color: #FFFFFF;
+    border-bottom-width: 1px;
+  }
+  td.nav-selected {
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    vertical-align: bottom;
+  }
+  div.nav-unselected {
+    margin-left: 5px;
+    float: left;
+    background-color: #d6e6ff;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-color: #d6e6ff;
+  }
+  .dropbtn {
+      background-color: white;
+      border: none;
+      font-family: Verdana, Helvetica, Arial, sans-serif;
+      color: gray;
+      text-decoration: underline;
+      outline: none;
+  }
+  .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+  .dropdown-sections:hover {
+      background-color: #bdd7ff;
+  }
+  .dropdown-content {
+      display: none;
+      border-color: gray;
+      border-style: solid;
+      border-width: 1px;
+      position: absolute;
+  }
+  .sort-show {
+      display: block;
+  }
+  .droplinks {
+      width: 83.95px;
+      text-decoration: none;
+  }
+
+  /* Night Mode Elements */
+  font.nightmode {
+      color: #e6e6e6;
+  }
+  body.nightmode {
+      background-color: #2b2b2b;
+  }
